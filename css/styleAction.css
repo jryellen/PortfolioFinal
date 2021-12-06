@@ -24,7 +24,9 @@
       transform: translateX(0px);
     }
   }
-  
+  .skip{
+    width:100%
+  }
 .link-four {
   color: #b289d8;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
