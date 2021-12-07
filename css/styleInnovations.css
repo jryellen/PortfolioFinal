@@ -76,6 +76,7 @@ main{
   justify-items: center;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto;
   height: auto;
   align-items: center;
   color: #fff;
@@ -643,7 +644,7 @@ footer{
     footer p{
         font-size: 16px;
     }
-  @media only screen and (max-width: 800px) and (min-width: 600px) {
+  @media only screen and (max-width: 992px) and (min-width: 600px) {
     a {
       font-family: "Bebas Neue", serif;
       font-size: 2em;
@@ -672,6 +673,18 @@ footer{
       #renewal.flip-card{
        grid-column: 1/ -1;
       }
+      .link-one{
+        font-size: 30px;
+      }
+      .link-two{
+          font-size: 30px;
+        }
+        .link-three{
+          font-size: 30px;
+        }
+        .link-four{
+          font-size: 30px;
+        }
   }
   @media screen and (prefers-reduced-motion: reduce) {
     p{
@@ -730,7 +743,7 @@ footer{
       transform: none;
     }
   }
-  @media only screen and (min-width: 800px){
+  @media only screen and (min-width: 992px){
     .link-one{
       font-size: 40px;
     }
@@ -742,5 +755,10 @@ footer{
       }
       .link-four{
         font-size: 40px;
+      }
+      .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items:start;
+        height:auto;
       }
   }

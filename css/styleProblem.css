@@ -96,7 +96,7 @@ ul{
   color: #111;
   animation: expand 1s ease forwards;
   background-color: #47D7CD;
-  font-family: "Bebas Neue", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Roboto", serif;
   transition: all .8s ease;
 }
 
@@ -143,8 +143,8 @@ ul{
   justify-self: center;
   animation: slideIn 1.5s ease-in-out forwards;
 }
-
 .par p{
+    font-family: "Roboto", serif;
     align-items:center;
     justify-content:center;
     height: auto;
@@ -166,7 +166,6 @@ p{
   transform: translateY(300px);
   animation: slideUp 1s ease-in-out forwards 1s;
 }
-
 .container_content_inner{
     justify-content: center;
     align-items:center;
@@ -323,7 +322,7 @@ text-decoration: none;
   clip-path: circle(100% at 50% 50%);
 }
 .container2{
-  font-family: "Bebas Neue", serif;
+  font-family: "Roboto", serif;
 }
 .link-one::after {
   content: "";
@@ -630,12 +629,28 @@ footer a:hover{
     .bullets h2{
       font-size: 28px;
     }
+    .bullet g1{
+      padding:20px;
+    }
     .bullets img{
       width: 75%
     }
     .bullet ul{
       line-height: 1;
+      padding:20px;
     }
+    .link-one{
+      font-size: 30px;
+    }
+    .link-two{
+        font-size: 30px;
+      }
+      .link-three{
+        font-size: 30px;
+      }
+      .link-four{
+        font-size: 30px;
+      }
 }
 @media screen and (prefers-reduced-motion: reduce) {
   p{
@@ -689,5 +704,27 @@ footer a:hover{
     }
     .link-four{
       font-size: 40px;
+    }
+    .intro{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+    }
+    .container_content{
+      padding-right: 30px;
+    }
+    .bullet ul{
+      padding-left:25%;
+      padding-right:25%;
+    }
+    #rings{
+      position: absolute;
+      top: 60vh;
+      left: 60vh;
+    }
+    #earth{
+      top: 50vh;
+      padding-left: 15vh;
+      height: 30%;
     }
 }

@@ -471,24 +471,30 @@ footer a:hover{
     padding-right: 10px;
     padding-bottom: 5vh;
   }
-  .dc{
+  #dcC{
     width:45%;
     height: 40vh;
-    background-image: url('../images/dcMeals.jpg')
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),url('../images/dcMeals.jpg');
   }
   #dc{
     object-fit:contain;
     color:#111;
   }
-  .dc:hover{
+  #dcC:hover{
     border:2px solid black;
   }
-  .fie{
+  #fieC{
     width:45%;
     height: 40vh;
-    background-image: url('../images/fie1.jpg')
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),url('../images/fie1.jpg');
   }
-  .fie:hover{
+  #fieC:hover{
     border:2px solid black;
   }
   #fie{
@@ -519,31 +525,49 @@ footer a:hover{
     width:auto;
     height:auto
   }
+
   .petitions a:hover{
     color: #fff;
   }
-  .rot{
-    width: 45%;
+  #rotC{
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),url('../images/rot.jpg');
+    width:45%;
     height: 40vh;
-    background-image: url('../images/rot.jpg')
   }
-  .rot:hover{
+  #rotC:hover{
     border:2px solid black;
   }
   #rot{
     color:#111;
     text-align:center;
   }
-  .canada{
+  .org{
     width:45%;
     height: 40vh;
-    background-image: url('../images/flag.jpg')
+    display:flex;
+    align-items: center;
+  }
+  .org a{
+    margin:20px;
+    width:100%;
+
+  }
+  #canadaC{
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),url('../images/flag.jpg');
+    width:45%;
+    height: 40vh;
   }
   #Canada{
     object-fit:contain;
     color:#111;
   }
-  .canada:hover{
+  .org:hover{
     border:2px solid black;
   }
   .sec2{
@@ -557,6 +581,7 @@ footer a:hover{
     line-height: 1.1;
     padding-bottom: 10vh;
     align-items:center;
+    font-family:"Roboto", serif;
   }
   .sec2 h1{
     font-size: 45px;
@@ -608,6 +633,18 @@ footer a:hover{
           padding: 0;
           margin: 10px;
         }
+        .link-one{
+          font-size: 30px;
+        }
+        .link-two{
+            font-size: 30px;
+          }
+          .link-three{
+            font-size: 30px;
+          }
+          .link-four{
+            font-size: 30px;
+          }
     }
     @media screen and (prefers-reduced-motion: reduce) {
       .container{
@@ -621,7 +658,7 @@ footer a:hover{
         animation:none;
       }
     }
-    @media only screen and (min-width: 800px){
+    @media only screen and (min-width: 992px){
       .link-one{
         font-size: 40px;
       }
@@ -633,5 +670,11 @@ footer a:hover{
         }
         .link-four{
           font-size: 40px;
+        }
+        .petitions{
+          flex-wrap: nowrap;
+        }
+        .org{
+          margin:20px;
         }
     }

@@ -707,6 +707,18 @@ header{
                 position: absolute;
                 top: 200px;
               }
+              .link-one{
+                font-size: 30px;
+              }
+              .link-two{
+                  font-size: 30px;
+                }
+                .link-three{
+                  font-size: 30px;
+                }
+                .link-four{
+                  font-size: 30px;
+                }
         }
         @media screen and (prefers-reduced-motion: reduce) {
           #earth{
@@ -757,11 +769,33 @@ header{
           .link-two{
               font-size: 40px;
             }
+            .space h1{
+              font-size: 40px;
+            }
             .link-three{
               font-size: 40px;
             }
             .link-four{
               font-size: 40px;
+            }
+            #rings{
+              position: absolute;
+              top: 60vh;
+              left: 60vh;
+            }
+            #earth{
+              top: 50vh;
+              padding-left: 30vh;
+              height: 30%;
+            }
+            #mountain{
+              top:70vh;
+            }
+            #tree{
+              top:90vh;
+            }
+            .sky h1{
+              padding-left:100px;
             }
         }
       
