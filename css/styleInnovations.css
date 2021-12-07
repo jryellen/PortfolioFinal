@@ -613,7 +613,6 @@ footer{
   justify-content: space-between;
   padding:5px;
 }
-@media only screen and (max-width: 600px) {
   .par h1{
     font-size: 60px;
   }
@@ -644,8 +643,6 @@ footer{
     footer p{
         font-size: 16px;
     }
-
-  }
   @media only screen and (max-width: 800px) and (min-width: 600px) {
     a {
       font-family: "Bebas Neue", serif;
@@ -678,7 +675,7 @@ footer{
   }
   @media screen and (prefers-reduced-motion: reduce) {
     p{
-      transform:none;
+      transform: none;
       animation:none;
     }
     nav{
@@ -690,4 +687,60 @@ footer{
     .container{
       animation:none;
     }
+    .flip-card:hover .flip-card-back{
+      opacity: 1;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card:hover .flip-card-front{
+      opacity: 0;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card a:focus .flip-card-back{
+      opacity: 1;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card-back a:focus .flip-card-front{
+      opacity: 0;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card:active .flip-card-back{
+      opacity: 1;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card:active .flip-card-front{
+      opacity: 0;
+      pointer-events: all;
+      transform: none;
+    }
+    .flip-card:hover .flip-card-inner {
+      transform: none;
+    }
+    .flip-card:active .flip-card-inner {
+      transform: none;
+    }
+    .flip-card:focus-within .flip-card-inner {
+      transform: none;
+    }
+    .flip-card:focus .flip-card-inner {
+      transform: none;
+    }
+  }
+  @media only screen and (min-width: 800px){
+    .link-one{
+      font-size: 40px;
+    }
+    .link-two{
+        font-size: 40px;
+      }
+      .link-three{
+        font-size: 40px;
+      }
+      .link-four{
+        font-size: 40px;
+      }
   }

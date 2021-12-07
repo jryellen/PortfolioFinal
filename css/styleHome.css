@@ -164,9 +164,6 @@ footer a:hover{
       opacity: 0
     }
   }
-  
-  @media only screen and (max-width: 600px) {
       .text h1{
         font-size: 50px;
       }
-    }

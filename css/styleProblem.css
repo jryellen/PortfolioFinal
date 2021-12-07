@@ -576,7 +576,6 @@ footer a:hover{
   .bullets{
     padding-bottom: 10vh;
   }
-@media only screen and (max-width: 600px) {
   .par {
     font-size: 60px;
   }
@@ -603,8 +602,7 @@ footer a:hover{
         font-size: 36px;
         width: 75%;
     }
-}
-@media only screen and (max-width: 800px) and (min-width:600px){
+@media only screen and (max-width: 992px) and (min-width:600px){
   a {
     font-family: "Bebas Neue", serif;
     font-size: 2em;
@@ -678,4 +676,18 @@ footer a:hover{
   .container_content_inner{
     animation:none;
   }
+}
+@media only screen and (min-width: 992px){
+  .link-one{
+    font-size: 40px;
+  }
+  .link-two{
+      font-size: 40px;
+    }
+    .link-three{
+      font-size: 40px;
+    }
+    .link-four{
+      font-size: 40px;
+    }
 }

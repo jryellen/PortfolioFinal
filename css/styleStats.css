@@ -557,7 +557,6 @@ header{
       top:10vh;
       position: sticky;
     }
-    @media only screen and (max-width: 600px) {
       #earth{
         top: 0vh;
       }
@@ -623,9 +622,7 @@ header{
            .sky h1{
             width: 40%
           }
-
-        }
-        @media only screen and (max-width: 800px) and (min-width: 600px) {
+        @media only screen and (max-width: 992px) and (min-width: 600px) {
           a {
             font-family: "Bebas Neue", serif;
             font-size: 2em;
@@ -753,3 +750,18 @@ header{
             animation:none;
           }
         }
+        @media only screen and (min-width: 992px){
+          .link-one{
+            font-size: 40px;
+          }
+          .link-two{
+              font-size: 40px;
+            }
+            .link-three{
+              font-size: 40px;
+            }
+            .link-four{
+              font-size: 40px;
+            }
+        }
+      

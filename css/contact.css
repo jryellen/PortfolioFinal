@@ -427,7 +427,6 @@ footer a:hover{
     font-size: 40px;
     }
 
-    @media only screen and (max-width: 600px) {
         .par h1{
           font-size: 60px;
         }
@@ -459,9 +458,8 @@ footer a:hover{
           .sec2 ul{
             padding:10px;
             padding-left: 35px;
-          }
         }
-        @media only screen and (max-width: 800px) {
+        @media only screen and (min-width: 600px) and (max-width: 992px) {
           a {
             font-family: "Bebas Neue", serif;
             font-size: 2em;
@@ -476,5 +474,23 @@ footer a:hover{
               width: 150px;
               padding: 0;
               margin: 10px;
+            }
+        }
+        @media only screen and (min-width: 992px){
+          .link-one{
+            font-size: 40px;
+          }
+          .link-two{
+              font-size: 40px;
+            }
+            .link-three{
+              font-size: 40px;
+            }
+            .link-four{
+              font-size: 40px;
+            }
+            #rings{
+              position: absolute;
+              height: 20vh;
             }
         }
